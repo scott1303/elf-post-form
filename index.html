@@ -222,7 +222,6 @@
                     // Token is valid - show the form and pre-fill email if available
                     document.getElementById('accessToken').value = token;
                     if (data.email) document.getElementById('parentEmail').value = data.email;
-                    if (data.child_name) document.getElementById('childName').value = data.child_name;
 
                     document.getElementById('loadingState').style.display = 'none';
                     document.getElementById('formSection').classList.add('show');
