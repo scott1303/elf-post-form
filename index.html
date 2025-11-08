@@ -210,7 +210,7 @@
         }
         try {
             const response = await fetch(
-                `https://n8n-theelfpost.up.railway.app/webhook/validate-token?token=${encodeURIComponent(token)}`
+                `https://n8n-theelfpost.up.railway.app/webhook-test/validate-token?token=${encodeURIComponent(token)}`
             );
             const data = await response.json();
 
